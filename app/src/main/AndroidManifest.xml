@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="robs.testejson">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
@@ -19,15 +19,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".NoticiaListActivity"
-            android:label="@string/title_noticia_activity_list" >
-        </activity>
+            android:label="@string/title_noticia_activity_list"></activity>
         <activity
             android:name=".NoticiaDetailActivity"
-            android:label="@string/title_activity_noticia_detail" >
-        </activity>
+            android:label="@string/title_activity_noticia_detail"></activity>
+        <activity android:name=".CadastroPostActivity"></activity>
     </application>
 
 </manifest>

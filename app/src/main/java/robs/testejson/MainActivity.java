@@ -16,4 +16,8 @@ public class MainActivity extends AppCompatActivity {
     public void abrirNoticias(View view) {
         startActivity(new Intent(this, NoticiaListActivity.class));
     }
+
+    public void abrirCadastroPost(View view) {
+        startActivity(new Intent(this, CadastroPostActivity.class));
+    }
 }
